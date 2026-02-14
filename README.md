@@ -6,6 +6,23 @@
   <img src="https://i.pinimg.com/1200x/4c/d6/3c/4cd63c93075047a6c1395d6b1e287253.jpg" width="600" alt="GIF Banner">
 </div>
 
+<div align="center">
+  <h2>˗ˏˋ ★ ˎˊ ˗𝐷𝑒𝑠𝑐𝑟𝑖𝑝𝑐𝑖ó𝑛 𝐺𝑒𝑛𝑒𝑟𝑎𝑙˗ ˏˋ ★ ˎˊ˗</h2>
+</div>
+
+<div style="text-align: justify; width: 100%; margin-top: 10px;">
+  Esta aplicación web tiene como objetivo concienciar sobre la importancia del cuidado 
+  del medio ambiente, ofreciendo información sobre sostenibilidad, sistemas de 
+  gestión ambiental y prácticas responsables como las “3 R” (Reducir, Reutilizar, Reciclar).
+
+  La aplicación está desarrollada con <strong>Flask</strong> (framework de Python) y utiliza 
+  HTML, Bootstrap 5 y Jinja2 para el renderizado dinámico de las páginas. Además, cuenta 
+  con estilos personalizados mediante CSS y está estructurada de manera modular para 
+  facilitar su mantenimiento y ampliación.
+</div>
+
+
+
 
 -----------------------------------
 ʙᴀꜱᴇ.ʜᴛᴍʟ
