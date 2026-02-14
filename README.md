@@ -21,6 +21,7 @@
   facilitar su mantenimiento y ampliación.
 </div>
 
+ℜ𝔞𝔪𝔬𝔫 𝔄𝔯𝔢𝔠𝔥𝔞𝔯 ℜ𝔬𝔧𝔞𝔰 𝔊𝔗ℑ𝔇𝟷𝟻𝟹 ♡
 
 ## 𝑇𝑒𝑐𝑛𝑜𝑙𝑜𝑔í𝑎𝑠 𝑈𝑡𝑖𝑙𝑖𝑧𝑎𝑑𝑎𝑠
 
