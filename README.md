@@ -74,6 +74,32 @@
 ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・★・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
 
 -----------------------------------
+ꜰᴜɴᴄɪᴏɴᴀʟɪᴅᴀᴅᴇꜱ ᴄʟᴀᴠᴇ
+-----------------------------------
+
+⭑Navegación intuitiva
+
+⭑Navbar fijo y responsive.
+
+⭑Breadcrumb dinámico.
+
+⭑Contenido educativo
+
+⭑Información clara sobre sostenibilidad y cuidado ambiental.
+
+⭑Imágenes e íconos para reforzar conceptos.
+
+⭑Diseño responsivo
+
+⭑Bootstrap asegura que el contenido se adapte a móviles, tablet y escritorio.
+
+⭑Modularidad
+
+⭑Uso de plantillas base para evitar repetición de código.
+
+⭑Facilita agregar nuevas páginas sin modificar la estructura general.
+
+-----------------------------------
 ʙᴀꜱᴇ.ʜᴛᴍʟ
 -----------------------------------
 ```html
