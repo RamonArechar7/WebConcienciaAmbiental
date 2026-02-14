@@ -10,7 +10,7 @@
   <h2>˗ˏˋ ★ ˎˊ ˗𝐷𝑒𝑠𝑐𝑟𝑖𝑝𝑐𝑖ó𝑛 𝐺𝑒𝑛𝑒𝑟𝑎𝑙˗ ˏˋ ★ ˎˊ˗</h2>
 </div>
 
-<div style="text-align: justify; width: 100%; margin-top: 10px;">
+<div style="text-align: center; max-width: 800px; margin: 10px auto;">
   Esta aplicación web tiene como objetivo concienciar sobre la importancia del cuidado 
   del medio ambiente, ofreciendo información sobre sostenibilidad, sistemas de 
   gestión ambiental y prácticas responsables como las “3 R” (Reducir, Reutilizar, Reciclar).
@@ -20,7 +20,6 @@
   con estilos personalizados mediante CSS y está estructurada de manera modular para 
   facilitar su mantenimiento y ampliación.
 </div>
-
 
 
 
