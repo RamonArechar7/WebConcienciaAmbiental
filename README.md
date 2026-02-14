@@ -61,10 +61,10 @@
 -----------------------------------
 ᴘʀᴜᴇʙᴀꜱ
 -----------------------------------
-![Ambiente]()
-![Futuro]()
-![Sistema]()
-![Reciclaje]()
+![Ambiente](https://github.com/RamonArechar7/WebConcienciaAmbiental/blob/master/PRUEBAS/1RA.png)
+![Futuro](https://github.com/RamonArechar7/WebConcienciaAmbiental/blob/master/PRUEBAS/2RA.png)
+![Sistema](https://github.com/RamonArechar7/WebConcienciaAmbiental/blob/master/PRUEBAS/3RA.png)
+![Reciclaje](https://github.com/RamonArechar7/WebConcienciaAmbiental/blob/master/PRUEBAS/4RA.png)
 
 -----------------------------------
 ʙᴀꜱᴇ.ʜᴛᴍʟ
