@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="fade-in">
+    <div class="page-header">
+        <h2 class="mb-4">Las 3 R del cuidado ambiental</h2>
+        <div class="environment-icon">♻️</div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-md-4">
+            <div class="card text-center h-100 shadow-soft">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Reducir</h4>
+                </div>
+                <div class="card-body">
+                    <div class="environment-icon">📉</div>
+                    <p class="card-text">Consumir solo lo necesario para minimizar el impacto ambiental.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center h-100 shadow-soft">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Reutilizar</h4>
+                </div>
+                <div class="card-body">
+                    <div class="environment-icon">🔄</div>
+                    <p class="card-text">Dar una segunda vida a los objetos antes de desecharlos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center h-100 shadow-soft">
+                <div class="card-header bg-info text-white">
+                    <h4 class="mb-0">Reciclar</h4>
+                </div>
+                <div class="card-body">
+                    <div class="environment-icon">♻️</div>
+                    <p class="card-text">Transformar residuos en nuevos productos útiles.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/reciclaje.jpg') }}"
+             class="img-fluid rounded shadow-soft"
+             alt="Reciclaje y las 3R">
+    </div>
+</div>
+{% endblock %}

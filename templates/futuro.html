@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="fade-in">
+    <div class="page-header">
+        <h2 class="mb-3">El planeta que dejaremos a nuestros hijos</h2>
+        <div class="environment-icon">🌍</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='images/futuro.jpg') }}"
+                 class="img-fluid rounded mb-4 shadow-soft"
+                 alt="Futuro del planeta">
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow-soft">
+                <div class="card-body">
+                    <p class="lead">
+                        Las decisiones que tomamos hoy impactarán directamente
+                        la calidad de vida de las próximas generaciones.
+                    </p>
+                    <p>
+                        Es nuestra responsabilidad colectiva construir un futuro sostenible
+                        donde nuestros hijos puedan disfrutar de un planeta saludable y próspero.
+                    </p>
+                    <div class="alert alert-warning" role="alert">
+                        <strong>¡Actúa ahora!</strong> Cada acción cuenta para preservar nuestro hogar.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

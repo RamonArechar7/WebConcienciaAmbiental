@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="fade-in">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h1 class="mb-4">¿Por qué es importante cuidar el medio ambiente?</h1>
+            <p class="lead mb-4">
+                El medio ambiente es la base de la vida. Protegerlo garantiza bienestar,
+                salud y recursos para las futuras generaciones.
+            </p>
+            <div class="d-flex gap-3">
+                <a href="{{ url_for('sistema') }}" class="btn btn-primary btn-lg">Sistema Ambiental</a>
+                <a href="{{ url_for('futuro') }}" class="btn btn-outline-primary btn-lg">Futuro del Planeta</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='images/ambiente.jpg') }}"
+                 class="img-fluid rounded shadow-soft"
+                 alt="Cuidado del medio ambiente">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card text-center h-100 shadow-soft">
+                <div class="card-body">
+                    <div class="environment-icon">🌍</div>
+                    <h5 class="card-title">Planeta Saludable</h5>
+                    <p class="card-text">Preservar los recursos naturales para un futuro sostenible.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center h-100 shadow-soft">
+                <div class="card-body">
+                    <div class="environment-icon">♻️</div>
+                    <h5 class="card-title">Reciclaje</h5>
+                    <p class="card-text">Reducir, reutilizar y reciclar para minimizar residuos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center h-100 shadow-soft">
+                <div class="card-body">
+                    <div class="environment-icon">🌱</div>
+                    <h5 class="card-title">Conservación</h5>
+                    <p class="card-text">Proteger la biodiversidad y los ecosistemas naturales.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

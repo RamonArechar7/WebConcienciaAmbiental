@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="fade-in">
+    <div class="page-header">
+        <h2 class="mb-3">Sistema de Gestión Ambiental</h2>
+        <div class="environment-icon">🌱</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='images/sistema.jpg') }}"
+                 class="img-fluid rounded mb-4 shadow-soft"
+                 alt="Sistema de Gestión Ambiental">
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow-soft">
+                <div class="card-body">
+                    <p class="lead">
+                        Un Sistema de Gestión Ambiental (SGA) es un conjunto de políticas,
+                        procedimientos y prácticas que permiten a organizaciones reducir
+                        su impacto ambiental y cumplir con normativas ecológicas.
+                    </p>
+                    <p>
+                        Los SGA ayudan a las empresas a ser más sostenibles y responsables
+                        con el medio ambiente, contribuyendo así a la preservación del planeta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

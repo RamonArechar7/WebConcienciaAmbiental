@@ -1,0 +1,261 @@
+
+
+/* Variables de color */
+:root {
+    --primary-green: #2e7d32;
+    --light-green: #4caf50;
+    --dark-green: #1b5e20;
+    --accent-green: #66bb6a;
+    --earth-brown: #8d6e63;
+    --sky-blue: #e3f2fd;
+    --text-dark: #2c3e50;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e8f5e8 0%, #f1f8e9 100%);
+    min-height: 100vh;
+    color: var(--text-dark);
+}
+
+.navbar {
+    background: linear-gradient(90deg, var(--primary-green) 0%, var(--light-green) 100%) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-bottom: 3px solid var(--dark-green);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(74, 74, 74) !important;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.9) !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(12, 143, 0) !important;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+}
+
+
+.breadcrumb {
+    background: linear-gradient(45deg, var(--light-green), var(--accent-green));
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 2px solid var(--primary-green);
+}
+
+.breadcrumb-item {
+    color: white !important;
+    font-weight: 500;
+}
+
+.breadcrumb-item.active {
+    color: #363636 !important;
+    font-weight: 600;
+}
+
+.breadcrumb-item a {
+    color: rgba(37, 37, 37, 0.9) !important;
+}
+
+.breadcrumb-item a:hover {
+    color: white !important;
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+    background: rgba(255,255,255,0.95);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-green);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Párrafos */
+p {
+    line-height: 1.7;
+    color: #555;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--text-dark);
+}
+
+/* Imágenes */
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.02);
+}
+
+/* Botones - compatibles con Bootstrap */
+.btn {
+    border-radius: 25px;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, var(--primary-green), var(--light-green));
+    color: white;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, var(--dark-green), var(--primary-green));
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(46, 125, 50, 0.3);
+    color: white;
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-green);
+    color: var(--primary-green);
+}
+
+.btn-outline-primary:hover {
+    background: linear-gradient(45deg, var(--primary-green), var(--light-green));
+    border-color: var(--primary-green);
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, var(--dark-green) 0%, var(--primary-green) 100%) !important;
+    color: white !important;
+    margin-top: 3rem;
+    padding: 2rem 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Cards - compatibles con Bootstrap */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.card-header {
+    background: linear-gradient(45deg, var(--light-green), var(--accent-green));
+    color: white;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+.card-body {
+    background: #f8f9fa;
+}
+
+/* Listas */
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Enlaces - sin interferir con Bootstrap */
+a {
+    color: var(--primary-green);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--dark-green);
+    text-decoration: underline;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+}
+
+/* Estilos específicos para páginas */
+.page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+    background: linear-gradient(45deg, rgba(76, 175, 80, 0.1), rgba(102, 187, 106, 0.1));
+    border-radius: 15px;
+}
+
+/* Iconos ambientales */
+.environment-icon {
+    color: var(--primary-green);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Gradientes de fondo para secciones */
+.gradient-bg {
+    background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+}
+
+/* Sombras suaves */
+.shadow-soft {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Bordes redondeados */
+.rounded-custom {
+    border-radius: 15px;
+}
