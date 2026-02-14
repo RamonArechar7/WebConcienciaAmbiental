@@ -22,6 +22,43 @@
 </div>
 
 
+## 𝑇𝑒𝑐𝑛𝑜𝑙𝑜𝑔í𝑎𝑠 𝑈𝑡𝑖𝑙𝑖𝑧𝑎𝑑𝑎𝑠
+
+| Tecnología       | Función                                                                 |
+|-----------------|-------------------------------------------------------------------------|
+| Flask           | Framework web en Python para renderizar páginas con plantillas Jinja2. |
+| HTML5           | Estructura de las páginas web.                                         |
+| Bootstrap 5     | Diseño responsivo y componentes predefinidos (cards, navbar, grid).     |
+| CSS personalizado | Estilos adicionales y efectos visuales.                                |
+| Jinja2          | Motor de plantillas para incluir contenido dinámico.                    |
+
+-----------------------------------
+ᴇꜱᴛʀᴜᴄᴛᴜʀᴀ 
+-----------------------------------
+```
+/project-root
+│
+├─ /templates
+│   ├─ base.html
+│   ├─ index.html
+│   ├─ futuro.html
+│   ├─ sistema.html
+│   └─ tres_r.html
+│
+├─ /static
+│   ├─ /css
+│   │   └─ style.css
+│   └─ /images
+│       ├─ ambiente.jpg
+│       ├─ futuro.jpg
+│       ├─ sistema.jpg
+│       └─ reciclaje.jpg
+│
+└─ app.py (archivo principal de Flask)
+
+```
+
+
 
 -----------------------------------
 ʙᴀꜱᴇ.ʜᴛᴍʟ
